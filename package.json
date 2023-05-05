@@ -1,0 +1,23 @@
+{
+  "name": "sequence-indexer-listeners",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "listen": "ts-node index.ts",
+    "test": "ts-node test.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "0xsequence": "^0.43.27",
+    "dotenv": "^16.0.3",
+    "ethers": "5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "12"
+  }
+}
